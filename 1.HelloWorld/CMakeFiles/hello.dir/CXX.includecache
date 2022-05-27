@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/icub/Documentos/block de notas iCub /1.HelloWorld/main.cpp
+cstdio
+-
+yarp/os/SystemClock.h
+-
+
+/home/icub/robotology-superbuild/build/install/include/yarp/conf/api.h
+yarp/conf/compiler.h
+-
+yarp/conf/system.h
+-
+yarp/conf/api.h
+-
+
+/home/icub/robotology-superbuild/build/install/include/yarp/conf/compiler.h
+
+/home/icub/robotology-superbuild/build/install/include/yarp/conf/system.h
+
+/home/icub/robotology-superbuild/build/install/include/yarp/os/Clock.h
+yarp/os/api.h
+-
+
+/home/icub/robotology-superbuild/build/install/include/yarp/os/SystemClock.h
+yarp/os/Clock.h
+-
+
+/home/icub/robotology-superbuild/build/install/include/yarp/os/api.h
+yarp/conf/api.h
+-
+yarp/conf/system.h
+-
+
